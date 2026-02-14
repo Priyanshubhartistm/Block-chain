@@ -1,0 +1,18 @@
+A block is a record book which contains the details of transaction data.
+- Every block is given,and aggregate set of transactions to be validted/verify/and edited to itself , 
+
+So basically, A block consist of 4 primary details:-
+i)  Hash of pervious block                                                        = It contains the "hash of pervious block"
+ii) Transaction Data                                                              = It contains and aggregate list of transactions 
+iii)Nonce                                                                         = It also contains the value of Nonce
+iv) Hash  
+
+Block Kya Hota Hai?
+Ek "Block" is register ka ek panna (page) hai. Jab ek panna bhar jata hai, to naya panna shuru hota hai. In panno ko ek ke baad ek joda jata hai, isiliye ise "Blockchain" kehte hain.
+
+Har ek block mein chaar (4) mukhya chizein hoti hain:
+
+i)  Hash                                                        = It contains the "hash of pervious block"
+ii) Hash of pervious block                                                           = It contains and aggregate list of transactions 
+iii)Nonce                                                                         = It also contains the value of Nonce
+iv) Transaction Data 
