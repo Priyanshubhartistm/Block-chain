@@ -1,0 +1,28 @@
+1. what is blockchain       
+blockchain is a Distributed database of immutable records called blocks, which are secured using cryptography.
+
+i) blockchain are store data chronological order.
+ii) once the data is recorded,it cannot be changed.               = means jab ek block dusre se jud gya to usme koye v changes aap ni kr skte ho.
+
+2. A block is a record book which contains the details of transaction data.
+- Every block is given,and aggregate set of transactions to be validted/verify/and edited to itself , 
+
+3. So basically, A block consist of 4 details:-
+i)  Hash of pervious block                                                        = It contains the "hash of pervious block"
+ii) Transaction Data                                                              = It contains and aggregate list of transactions 
+iii)Nonce                                                                         = It also contains the value of Nonce
+iv)Hash                                                                           = and the hash for the block of itself,which is like of digital signature of the block
+
+blockchain                 = Bitcoin paise ko store aur transfer karta hai,
+ek shared computer network par,jise Blockchain kehte hain.
+
+Ye network peer-to-peer hota hai
+(matlab log directly ek-dusre ko paise bhejte hain, bank ke through nahi).
+
+✅ Simple summary:
+Bitcoin             = digital paisa
+
+Blockchain          = system jisme Bitcoin chalta hai
+
+Peer-to-peer        = direct payment (no bank)
+
