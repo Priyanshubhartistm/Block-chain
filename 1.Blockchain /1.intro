@@ -23,4 +23,13 @@ A          = America
 B          = Asia
 
 2. In order to transfer the money, a thired party is required
+SOME DISADVANTGES of thired party:- 
+i) HIght transfer fee                      = bank will charge a high amount of transaction fee
+ii) Double spending                        = a digital error where money can be pent twice
+iii) Net fraud                             = hacker attack financial inst. and gain unauthorized access to steal your money
+iv) Poor data recovery                     = retriving lost data is difficult in a centralized system
+only single copy of databases but in decent. ledger tech, like blockchain have a multiple copies 
+
+These problems can be solved using Bitcoin and blockchain technology.
+
 
