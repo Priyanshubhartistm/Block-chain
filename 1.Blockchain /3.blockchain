@@ -2,14 +2,20 @@
 blockchain is a Distributed database of immutable records called blocks, which are secured using cryptography.
 
 i) blockchain are store data chronological order.
-ii) once the data is recorded,it cannot be changed.               = means jab ek block dusre se jud gya to usme koye v changes aap ni kr skte ho.
+ii) once the data is recorded,it cannot be changed.                    = means jab ek block dusre se jud gya to usme koye v changes aap ni kr skte ho.
                                                                        = and the hash for the block of itself,which is like of digital signature of the block
 
 Blockchain Kya Hai?
 Blockchain ko ek digital "Record Book" ya register ki tarah samjhein. Jaise ek purane zamane ke munshi ji apne register mein saare hisab-kitab likhte the, waise hi blockchain digital transactions ka record rakhta hai. Iski khass baat ye hai ki isme likha gaya data badla ya mitaya nahi ja sakta.
 
+Blockchain Kya Hai?
+Sochiye ek register/khata hai jisme saare transactions (लेन-देन) likhe jaate hain. Par yeh normal khata nahi hai:
+
+Yeh digital hai
+Sabke paas iski copy hai
+Ek baar likha toh badal nahi sakte
+Koi ek malik nahi hai
 
 
-
-
+2. In a blockchain
 
