@@ -1,0 +1,56 @@
+Nonce (used once)                         = A nonce is a random value which is used to vary the value of hash.
+
+Nonce:                                    = Ye ek random number hota hai jise miners use karte hain ek valid hash dhoondhne ke liye. Isse block secure banta hai.
+
+Maano aapke paas ek Tijori (Block) hai. Isme aapne apna saaman (Transaction Data) rakh diya aur pichli tijori ki chabi (Previous Hash) bhi daal di. Ab aapko ise lock karna hai.
+Lekin is tijori ka lock thoda ajeeb hai. Ye tabhi lock hogi jab aap ek sahi Number (Nonce) dial karenge.
+
+1. Problem kya hai?
+Aapko nahi pata ki wo number kya hai. Wo number 1 bhi ho sakta hai, 500 bhi, ya 9,99,999 bhi.
+
+Aap (Miner) kya karte hain?
+Aap guess karna shuru karte hain:
+
+i) Aapne dial kiya 001... Tijori nahi khuli (Lock nahi laga).
+ii) Aapne dial kiya 002... Phir bhi kuch nahi hua.
+iii) Aapne dial kiya 003... Abhi bhi nahi.
+iv) .. (Aap aise hi hazaron numbers try karte ja rahe hain) ...
+v) Jaise hi aapne dial kiya 4321, tijori se "Click" ki awaaz aayi aur wo lock ho gayi!
+
+2. Simple Words Mein Summary:
+- Nonce wo "Guess kiya hua number" hai jo block ko valid banane ke liye chahiye hota hai.
+
+- Is number ka Transaction se koi lena-dena nahi hota, ye bas ek Extra Number hai jo hum tab tak badalte rehte hain jab tak humein sahi Result (Hash) na mil jaye.
+
+- Miner ka computer bas yahi "Guessing Game" khelta hai. Jo computer sabse pehle sahi Nonce dhoondh leta hai, use inaam mein Bitcoin milte hain.
+
+3. Nonce = एक ऐसा नंबर जिसे miners ढूंढते हैं ताकि block valid बन सके
+
+बस इतना याद रखो 
+Nonce = guess किया गया नंबर
+
+4. 🧩 Nonce क्यों चाहिए?
+
+Blockchain में नया block जोड़ने से पहले
+एक puzzle solve करनी पड़ती है
+
+इस puzzle में miners को
+👉 सही Nonce ढूंढना होता है
+
+जब सही nonce मिल जाता है
+➡️ block valid हो जाता है
+➡️ blockchain में जुड़ जाता है
+
+5. मान लो rule है:
+ऐसा नंबर ढूंढो जिससे hash “000” से शुरू हो
+
+अब miner try करेगा:
+
+Nonce = 1 → hash = 8A45 ❌
+Nonce = 2 → hash = F123 ❌
+Nonce = 3 → hash = 9BC2 ❌
+Nonce = 45891 → hash = 000X ✅
+
+✔ मिल गया सही Nonce
+✔ Block valid
+
