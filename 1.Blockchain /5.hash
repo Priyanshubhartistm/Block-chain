@@ -1,0 +1,3 @@
+Hash              = A Hash is the alphanumeric value,which is used to identify a block.
+
+Hash:                                 Ye har block ka ek unique "Fingerprint" ya digital signature hota hai. Agar block ke andar ki thodi si bhi jankari badli jaye, to ye hash badal jayega.
