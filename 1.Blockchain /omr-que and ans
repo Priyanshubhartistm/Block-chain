@@ -1,0 +1,163 @@
+omr type:-
+1. Mining ke waqt jo random number guess kiya jata hai taaki sahi hash mil sake, use kya kehte hain?
+ans - nonce
+
+2. Bitcoin Halving kya hoti hai?
+ans - miners k reward ko aadha kar dena
+
+3. Blockchain ko kis tarah ki 'Book' kaha jata hai?
+ans - Distributed public ladger
+
+4. Bitcoin Pizza Day kyun manaya jata hai?
+ans - leszelo n  10,000 Bitcoins se 2 pizza khaida tha.
+
+5. Agar Bitcoin network par do miners ek saath ek hi waqt par sahi block dhoondh lete hain, to kya hota hai?
+ans - Is rule ko 'Longest Chain Rule' kehte hain.jaha sbse jda mehnat wali chain ko valid mana jata hai.
+
+6. Bitcoin mein 'Double Spending' ki samasya ko kaise roka jata hai?
+ans - sabhi node k pass ledger ka copy hota hai, aur transactions ko verify karne ke liye consensus mechanism use kiya jata hai.
+
+7. Bitcoin network mein 'Nodes' ka kya kaam hota hai?
+ans - y pure network par blockchain ka copy rakhna, transactions ko verify karna, aur naye blocks ko validate karna.
+
+8. Bitcoin mein 'Difficulty Adjustment' har 2 hafte mein kyun hota hai?
+ans - Taaki mining process ko consistent banaya ja sake, aur naye blocks har 10 minute mein add hote rahe.
+
+9. Bitcoin Halving ke baad naye supply par kya asar padta hai?
+ans - naye bitcoins ki supply aadhi ho jati hai, jis se scarcity badh jati hai aur price par asar pad sakta hai.
+
+10. Bitcoin ke creator kaun hai?
+ans - Satoshi Nakamoto (pseudonymous person or group)
+
+11. Bitcoin transactions ko verify karne ke liye kaunse cryptographic technique ka use hota hai?
+ans - Digital Signatures (Elliptic Curve Digital Signature Algorithm - ECDSA)
+
+12. Bitcoin blockchain mein 'Genesis Block' kya hota hai?
+ans - Bitcoin blockchain ka pehla block, jise Satoshi Nakamoto ne mine kiya
+
+13. Bitcoin ke 'Private Key' aur 'Public Key' ka kya role hota hai?
+ans - Private Key se aap apne bitcoins ko access karte hain aur transactions sign karte hain, jabki Public Key se aap apne bitcoins receive karte hain.
+
+14. Bitcoin network mein 'Fork' kya hota hai?
+ans - Jab blockchain do ya zyada alag-alag paths par split ho jata hai
+
+15. Bitcoin ke 'Lightning Network' ka kya purpose hai?
+ans - Bitcoin transactions ko faster aur cheaper banane ke liye ek layer-2 scaling solution
+
+16. Bitcoin ke 'Segregated Witness (SegWit)' update ka kya fayda hai?
+ans - SegWit ne transaction data ko block se alag kar diya, jis se block size badh jata hai aur transaction fees kam ho jati hai.
+
+17. Bitcoin ke 'Halving' event ka kya impact hota hai miners par?
+ans - Halving event ke baad miners ko milne wala reward aadha ho jata
+
+18. Bitcoin ke 'Proof of Work' consensus mechanism ka kya principle hai?
+ans - Miners ko complex mathematical problems solve karne hote hain taaki naye blocks add kiye ja sake, aur is process mein energy ka use hota hai.
+
+19. Bitcoin ke 'Satoshi' unit ka kya matlab hai?
+ans - Bitcoin ka sabse chhota unit, jise 0.00000001 BTC ke barabar mana jata hai.
+
+20. Bitcoin ke 'Halving' event ke baad kya hota hai?
+ans - Naye bitcoins ki supply aadhi ho jati hai, jis se scarcity badh jati hai aur price par asar pad sakta hai.
+
+21. Bitcoin ke 'Mining Difficulty' ko kaise adjust kiya jata hai?
+ans - Mining difficulty ko har 2016 blocks ke baad adjust kiya jata hai taaki naye blocks har 10 minute mein add hote rahe.
+
+22. Bitcoin ke 'Block Reward' ka kya matlab hai?
+ans - Block reward wo amount hota hai jo miners ko naye block mine karne ke liye milta hai, jo halving events ke baad aadha ho jata hai.
+
+23. Bitcoin ke 'Hash Rate' ka kya matlab hai?
+ans - Hash rate wo measure hai jo network ki total computational power ko dikhata hai, aur jitna zyada hash rate hoga, utna hi secure aur efficient network hoga.
+
+24. Bitcoin ke 'Decentralization' ka kya matlab hai?
+ans - Decentralization ka matlab hai ki Bitcoin network kisi ek central authority ke control mein nahi hai, balki poore network ke nodes ke dwara operate hota hai, jisse censorship resistance aur security badh jati hai.
+
+25. Bitcoin ke 'Cold Storage' ka kya matlab hai?
+ans - Cold storage ka matlab hai ki apne bitcoins ko internet se alag rakhna, jaise ki hardware wallets ya paper wallets, taaki unhe hackers se bachaya ja sake
+
+26. Bitcoin ke 'Public Ledger' ka kya matlab hai?
+ans - Public ledger ka matlab hai ki Bitcoin blockchain ek aisa record hai jo sabhi transactions ko publicly accessible banata hai, jisse transparency aur accountability badh jati hai.
+
+27. Bitcoin ke 'Satoshi Nakamoto' kaun hai?
+ans - Satoshi Nakamoto Bitcoin ke creator hain, lekin unka asli identity abhi tak pata nahi chal paaya hai, aur unhone Bitcoin ko 2008 mein introduce kiya
+
+28. Bitcoin mining mein 'SHA-256' kya hai?
+ans - SHA-256 ek cryptographic hash function hai jo Bitcoin mining mein use hota hai, jisse miners apne blocks ke liye valid hashes generate karte hain.
+
+29. Mining 'Pool' kya hota hai?
+ans - Mining pool ek group of miners hota hai jo apni computational power ko combine karte hain taaki naye blocks mine karne ke chances badh jaye, aur rewards ko pool ke members ke beech distribute karte hain.
+
+30. Bitcoin ke 'Transaction Fees' ka kya role hai?
+ans - Transaction fees miners ko incentivize karne ke liye hoti hai taaki wo transactions ko apne blocks mein include kare, aur jaise jaise block rewards kam hote jayenge, transaction fees ka importance badh jayega.
+
+31. Agar saare Bitcoin mine ho jayein (saal 2140 ke aas-paas), to miners ko kya milega?
+ans - Jab saare Bitcoin mine ho jayenge, to miners ko sirf transaction fees ke through hi reward milega, kyunki block rewards khatam ho jayenge.
+
+32. Bitcoin network par '51% Attack' ka kya matlab hai?
+ans - 51% attack ka matlab hai ki agar koi malicious actor ya group network ke total hash rate ka 51% ya usse zyada control kar leta hai, to wo double spending kar sakta hai aur transactions ko manipulate kar sakta hai, jisse network ki security compromise ho sakti hai.
+
+33. Bitcoin block ka size kitna hota hai?
+ans - Bitcoin block ka size 1 megabyte (MB) hota hai, lekin SegWit update ke baad effective block size badh jata hai.
+
+34. Bitcoin ke 'UTXO' ka kya matlab hai?
+ans - UTXO ka matlab hai 'Unspent Transaction Output', jo ki wo amount hota hai jo kisi transaction ke baad abhi tak spend nahi hua hai, aur ye Bitcoin transactions ke fundamental building blocks hote hain.
+
+35. Bitcoin ko 'Hard Money' kyun kaha jata hai?
+ans - Bitcoin ko 'Hard Money' isliye kaha jata hai kyunki iska supply limited hai (21 million bitcoins), aur iski scarcity ke karan iska value time ke sath badh sakta hai, jisse log ise store of value ke roop mein dekhte hain.
+
+36. Block ke andar hazaron transactions ko ek hi 'Root Hash' mein sametne wale structure ko kya kehte hain?
+ans - Merkle Tree
+
+37. Bitcoin ka whitepaper pehli baar kahan publish kiya gaya hai?
+ans - Bitcoin ka whitepaper pehli baar 2008 mein 'Bitcoin: A Peer-to-Peer Electronic Cash System' ke title se publish kiya gaya tha, aur isse Satoshi Nakamoto ne likha tha.
+cryptography mailing list p
+
+38. Bitcoin mining mein 'ASIC' machines kya hoti hain?
+ans - ASIC (Application-Specific Integrated Circuit) machines wo specialized hardware hote hain jo sirf Bitcoin mining ke liye design kiye gaye hote hain, aur ye general-purpose hardware ke mukable mein bahut zyada efficient hote hain.
+
+39. Bitcoin network par 'Block Height' ka kya matlab hai?
+ans - Block height ka matlab hai ki kisi specific block ke blockchain mein kitne blocks pehle hain, yaani ki genesis block se lekar us block tak kitne blocks add ho chuke hain.
+
+40. Bitcoin ke 'Scripting Language' ko kya khaas banata hai?
+ans - Bitcoin ka scripting language ek simple, stack-based programming language hai jo transactions ke rules ko define karne ke liye use hoti hai, aur isse users apne transactions mein custom conditions set kar sakte hain, jaise multi-signature wallets ya time-locked transactions.
+
+41. Bitcoin mining mein 'Nonce' ki range kya hoti hai?
+ans - Nonce ki range 0 se 4,294,967,295 (2^32 - 1) tak hoti hai, kyunki nonce ek 32-bit unsigned integer hota hai jo miners apne hash calculations mein use karte hain taaki valid block hash generate kar sake.
+
+42. Bitcoin 'Nodes' ko chalane ka kya fayda hai agar aap miner nahi hain?
+ans - Bitcoin nodes chalane se aap network ki security aur decentralization mein contribute karte hain, apne transactions ko verify kar sakte hain, aur blockchain ka copy rakh kar network ke integrity ko maintain karne mein madad karte hain, bina kisi financial incentive ke.
+aap apne transactions ko khud verify kar sakte hain.
+
+43. Blockchain mein 'Orphan Block' kya hota hai?
+ans - Orphan block wo block hota hai jo valid hota hai lekin blockchain ke main chain ka part nahi ban pata, kyunki uske baad ek aur block zyada mehnat se mine ho jata hai, jisse wo orphan block ban jata hai.
+
+44. Bitcoin mining mein 'Energy consumption' ka asli maza (purpose) kya hai?
+bijli kharch karna y sabit krti h, ko block banane m asli duniya ki cost lagi h.
+
+45. Bitcoin network mein 'Transaction Fee' kis par nirbhar karti hai?
+ans - Transaction fee ka amount transaction ke size (in bytes) par nirbhar karta hai, aur miners zyada fee wale transactions ko apne blocks mein include karna pasand karte hain, isliye users apne transactions ko jaldi process karwane ke liye higher fees offer karte hain.
+
+46. Bitcoin ko 'Censorship Resistant' kyun kaha jata hai?
+ans - Bitcoin ko 'Censorship Resistant' isliye kaha jata hai kyunki iska decentralized nature aur cryptographic security ke karan koi bhi central authority ya government iske transactions ko block ya censor nahi kar sakti, jisse users apne financial transactions ko bina kisi interference ke kar sakte hain.
+
+47. Blockchain mein 'Timestamp' ka kya kaam hai?
+ans - Timestamp blockchain mein har block ke sath attach hota hai aur ye block ke creation time ko record karta hai, jisse network ke participants ko pata chalta hai ki block kab create hua tha, aur isse blockchain ke chronological order ko maintain karne mein madad milti hai.
+
+48. Bitcoin network mein 'Coinbase Transaction' kya hota hai?
+ans - Coinbase transaction wo special transaction hota hai jo har naye block ke sath create hota hai, aur isme miner ko block reward aur transaction fees milti hain, lekin is transaction mein koi input nahi hota, kyunki ye naye bitcoins generate karta hai.
+
+49. Agar Bitcoin network par ek 'Hard Fork' hota hai, to 'Replay Attack' se bachne ke liye kya kiya jata hai?
+ans - Replay attack se bachne ke liye, hard fork ke baad naye chain par transactions ko replay karne se rokne ke liye 'Replay Protection' implement ki jati hai, jisme transactions ko uniquely identify karne ke liye ek additional identifier ya signature add kiya jata hai, taaki purane chain par un transactions ko valid na mana jaye.
+
+50. Bitcoin network par 'Replace-By-Fee' (RBF) feature ka kya asar hota hai?
+ans - Replace-By-Fee (RBF) feature se users apne pending transactions ko higher fee ke sath replace kar sakte hain, taaki unke transactions ko jaldi confirm kiya ja sake, lekin isse double spending ka risk bhi badh jata hai, kyunki malicious actors is feature ka misuse karke apne transactions ko repeatedly replace kar sakte hain.
+
+51. Satoshi Nakamoto ne 'Difficulty Adjustment' ka formula kya rakha tha?
+ans - network check krta h, ki block 10min ki speed se bn rha h ya nhi, agar 10min se kam time m bn rha h to difficulty badh jati h, aur agar 10min se zyada time m bn rha h to difficulty kam ho jati h.
+
+52. Bitcoin mein 'Merkle Root' badalne se kya hoga?
+ans - Merkle Root badalne se block ka hash bhi badal jayega, jisse block invalid ho jayega aur blockchain ke main chain ka part nahi ban payega, kyunki blockchain ke integrity ko maintain karne ke liye blocks ke hashes ko match karna zaroori hota hai.
+
+53. Bitcoin mein 'Full Node' aur 'Light Node' (SPV) mein kya antar hai?
+ans - Full Node wo node hota hai jo blockchain ka complete copy rakhta hai aur transactions ko independently verify karta hai, jabki Light Node (SPV) wo node hota hai jo blockchain ka sirf header information rakhta hai aur transactions ko verify karne ke liye Full Nodes par rely karta hai, isliye Light Nodes zyada lightweight hote hain lekin unki security Full Nodes ke mukable mein kam hoti hai.
+
+54. 
