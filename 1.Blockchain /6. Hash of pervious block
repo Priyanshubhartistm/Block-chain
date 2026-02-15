@@ -1,0 +1,2 @@
+  Hash of pervious block                   = It holds the hash value of the previous block.
+Hash of Previous Block:              Ye sabse important hai. Har naya block apne pichle block ka fingerprint (hash) apne paas rakhta hai. Isi wajah se saare blocks ek chain ki tarah jude hote hain. Agar koi pichle block mein chhed-chhad karega, to puri chain toot jayegi.
